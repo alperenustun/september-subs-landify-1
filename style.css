@@ -1,0 +1,104 @@
+body {
+  background-image: url("Background.png");
+  background-size: 100%;
+  background-position: center;
+}
+
+.headers {
+  justify-content: space-between;
+  display: inline-flex;
+  padding: 16px 165px;
+  align-items: center;
+  gap: 261px;
+}
+.right {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin-right: 50px;
+  width: 135px;
+  height: 40px;
+}
+.left {
+  align-items: center;
+  display: flex;
+  font-size: 12px;
+  gap: 32px;
+  color: #18191f;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  font-feature-settings: "salt" on, "clig" off, "liga" off;
+}
+.landify img {
+  width: 67.68px;
+  height: 18.49px;
+  flex-shrink: 0;
+  fill: var(--default-black, #0b0d17);
+  stroke-width: 1px;
+  stroke: #000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.logo {
+  gap: 9.2px;
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+}
+.landify.logo {
+  display: flex;
+  width: 105px;
+  padding-right: 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 9.2px;
+}
+.isaret {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  margin: auto;
+}
+.menu {
+  display: flex;
+  gap: 4px;
+}
+.paragraf {
+  width: 730px;
+  height: 300px;
+  color: var(--text-gray-900, #18191f);
+  font-feature-settings: "salt" on, "liga" off;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: sans-serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 10px;
+  margin: 160px;
+}
+.iphone {
+  display: flex;
+  width: 350px;
+  flex-direction: column;
+  margin-left: 860px;
+  position: relative;
+  bottom: 380px;
+}
+.button {
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  padding: 12px 32px;
+  align-items: center;
+  gap: 10px;
+  background-color: #8c30f5;
+  border-radius: 6px;
+  border: 2px solid #8c30f5;
+}
