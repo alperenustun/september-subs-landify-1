@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <title>Landify</title>
     <link rel="stylesheet" href="style.css" />
@@ -10,70 +10,39 @@
       rel="stylesheet"
     />
   </head>
-
   <body>
-    <div class="background">
-      <div class="headers">
-        <div class="left">
-          <div class="baskisim">
-            <img class="logo" src="Logo.png" />
-            <img class="landify" src="Landifylogo.png" />
+    <div class="hero-section">
+      <header class="hero-header">
+        <nav class="hero-nav container">
+          <div class="hero-nav-left">
+            <img src="images/Darklogo.svg" />
+            <ul class="hero-nav-links">
+              <li class="hero-nav-link"><a href="#">About</a></li>
+              <li class="hero-nav-link"><a href="#">Products</a></li>
+              <li class="hero-nav-link"><a href="#">Pricing</a></li>
+              <li class="hero-nav-link"><a href="#">Blog</a></li>
+              <li class="hero-nav-link"><a href="#">Jobs</a></li>
+              <li class="hero-nav-link"><a href="#">More</a></li>
+            </ul>
           </div>
-          <ul class="list">
-            <li>
-              <a href="https://tureng.com/en/turkish-english/about">About</a>
-            </li>
-            <li>
-              <a href="https://tureng.com/en/turkish-english/product"
-                >Products</a
-              >
-            </li>
-            <li>
-              <a href="https://tureng.com/en/turkish-english/pricing"
-                >Pricing</a
-              >
-            </li>
-            <li>
-              <a href="https://tureng.com/en/turkish-english/blog">Blog</a>
-            </li>
-            <li>
-              <a href="https://tureng.com/en/turkish-english/jobs">Jobs</a>
-            </li>
-            <div class="headermenu">
-              <li>
-                <a href="https://tureng.com/en/turkish-english/more">More</a>
-              </li>
-
-              <li>
-                <a href="https://tureng.com/en/turkish-english"
-                  ><img src="chevron-down.png"
-                /></a>
-              </li>
-            </div>
-          </ul>
+          <div class="hero-nav-right">
+            <a href="#"><img src="images/Google Play Badge.svg" /></a>
+            <a href="#"><img src="images/App Store Badge.svg" /></a>
+          </div>
+        </nav>
+      </header>
+      <div class="hero-main container">
+        <div class="hero-main-left">
+          <h1 class="hero-main-title">
+            Organise projects.<br />
+            Get more done.
+          </h1>
+          <a class="hero-main-cta">Get Started</a>
         </div>
-        <div class="right">
-          <a
-            class="gplay"
-            href="https://play.google.com/store/games?hl=tr&gl=US"
-            target="_blank"
-          >
-            <img src="Google Play Badge.png" />
-          </a>
-          <a
-            class="astore"
-            href="https://www.apple.com/tr/app-store/"
-            target="_blank"
-          >
-            <img src="App Store Badge.png" />
-          </a>
+        <div class="hero-main-right">
+          <img src="images/Phone Mockup.svg" />
         </div>
       </div>
-      <div class="content">
-        <h1>Organise projects. Get more done.</h1>
-        <button>Get Started</button>
-      </div>
-      <img class="iphone" src="iPhone X.png" />
     </div>
   </body>
 </html>
