@@ -106,7 +106,7 @@ a {
   margin-top: 16px;
   margin-left: 16px;
 }
-.container {
+.testimonial-container {
   width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -116,14 +116,29 @@ a {
   background-color: #d5fafc;
   background-size: cover;
   background-position: center;
+  padding: 3em 0;
 }
 
-.section-title {
+.testimonal-section-title-container {
+  position: relative;
+}
+
+.testimonial-section-title {
   font-size: 48px;
   font-weight: 800;
   padding-left: 50px;
   width: 460px;
   margin-top: 50px;
+  z-index: 3;
+  position: relative;
+}
+
+.testimonial-section-title-quote {
+  position: absolute;
+  left: -46px;
+  top: -59px;
+  z-index: 1;
+  opacity: 0.8;
 }
 
 .testimonial-description {
@@ -143,24 +158,24 @@ a {
   margin-left: 140px;
 }
 .hubspot-logo {
-  position: absolute;
-  left: 390px;
+  position: relative;
+  margin-left: 20px;
   margin-top: 20px;
 }
 .hubspot-contenct {
-  margin-top: 40px;
+  margin-top: 30px;
   width: 300px;
 }
 .hubspot-layout {
   margin-top: 30px;
-  margin-left: 50px;
+  margin-left: 40px;
 }
 .hubspot-feedback {
   color: #18191f;
   font-size: 18px;
   font-weight: 400;
-  padding-left: 60px;
-  margin-top: 90px;
+  padding-left: 40px;
+  margin-top: 10px;
 }
 .hubspot-gopro {
   color: #969bab;
