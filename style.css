@@ -106,6 +106,7 @@ a {
   margin-left: 16px;
 }
 .testimonial-container {
+  justify-content: center;
   width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -142,11 +143,11 @@ a {
 
 .testimonial-description {
   font-size: 18px;
+  font-weight: 400;
   padding-left: 50px;
   margin-top: 30px;
 }
 .hubspot-column {
-  flex: 1;
   height: 360px;
   background-color: #fff;
   border-radius: 8px;
@@ -155,9 +156,9 @@ a {
   margin-left: 140px;
 }
 .hubspot-logo {
-  position: relative;
   margin-left: 20px;
   margin-top: 20px;
+  padding-top: 20px;
 }
 .hubspot-contenct {
   margin-top: 30px;
@@ -170,21 +171,17 @@ a {
 .hubspot-feedback {
   color: #18191f;
   font-size: 18px;
-  font-weight: 400;
   padding-left: 40px;
   margin-top: 10px;
 }
 .hubspot-gopro {
   color: #969bab;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
   margin-top: 10px;
 }
 .hubspot-floyd-miles {
   color: #18191f;
   font-size: 18px;
-  font-weight: 700;
 }
 
 .airbnb-column {
@@ -213,12 +210,10 @@ a {
 .airbnb-jane-cooper {
   color: #18191f;
   font-size: 18px;
-  font-weight: 700;
 }
 .airbnb-ceo {
   color: #969bab;
   font-size: 14px;
-  font-weight: 500;
   margin-top: 10px;
 }
 .show-column {
@@ -246,11 +241,9 @@ a {
 .show-kristin-watson {
   color: #18191f;
   font-size: 18px;
-  font-weight: 700;
 }
 .show-co-founder {
   color: #969bab;
   font-size: 14px;
-  font-weight: 500;
   margin-top: 10px;
 }
