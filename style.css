@@ -159,29 +159,27 @@ a {
 .feature-list-card-title {
   margin: 16px 0;
 }
-.features-column {
-  margin-top: 100px;
-  padding: 64px 165px;
-  gap: 48px;
+
+.feature-section-body {
+  max-width: 1180px;
+  margin: 50px auto;
 }
 .features-details-layout {
-  width: 1200px;
   align-items: center;
   display: flex;
-  gap: 150px;
+  gap: 30px;
 }
 .features-section-title {
-  width: 100%;
+  width: 540px;
   font-size: 40px;
-  line-height: 32px;
+  margin-right: 30px;
 }
 .features-lorem-title {
-  width: 100%;
+  width: 540px;
   font-size: 18px;
   line-height: 32px;
 }
 .features-cover-image {
-  width: 1200px;
+  width: 1110px;
   height: 400px;
-  margin-top: 30px;
 }
