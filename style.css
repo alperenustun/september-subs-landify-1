@@ -46,7 +46,7 @@ a {
   margin-left: 32px;
 }
 
-.hero-nav-link>a {
+.hero-nav-link > a {
   font-size: 14px;
   font-weight: 500;
 }
@@ -82,7 +82,7 @@ a {
   padding: 16px 165px;
   justify-content: center;
   align-items: center;
-  background: var(--default-white, #FFF);
+  background: var(--default-white, #fff);
 }
 
 .logo-section {
@@ -104,7 +104,7 @@ a {
   align-items: center;
   gap: 64px;
   margin-top: 16px;
-  margin-left: 16px
+  margin-left: 16px;
 }
 
 .feature-multiple-5 {
@@ -120,31 +120,29 @@ a {
 .section-heading-h2 {
   margin-top: auto;
   margin-bottom: auto;
-  color: var(--text-gray-900, #18191F);
+  color: var(--text-gray-900, #18191f);
   text-align: center;
-  font-feature-settings: 'salt' on, 'liga' off;
+  font-feature-settings: "salt" on, "liga" off;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: Inter;
   font-size: 48px;
   font-style: normal;
   font-weight: 900;
   line-height: 64px;
-
 }
 
 .section-p {
   margin-top: auto;
   margin-bottom: auto;
   align-self: stretch;
-  color: var(--text-gray-900, #18191F);
+  color: var(--text-gray-900, #18191f);
   text-align: center;
-  font-feature-settings: 'salt' on, 'liga' off;
+  font-feature-settings: "salt" on, "liga" off;
   font-family: Inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-
 }
 
 .feature-list {
@@ -171,42 +169,33 @@ a {
   display: flex;
   justify-content: space-between;
   gap: 30px;
-
 }
 
 .stats-1 {
-
   width: 500px;
   gap: 8px;
-  margin-left: 100px;
-
 }
 
 .stats-1-h2 {
   font-weight: 800;
   font-size: 48px;
   line-height: 64px;
-
 }
 
 .stats-1-p {
   font-size: 18px;
   font-weight: 400;
   line-height: 40px;
-
 }
 
 .stats-2 {
   width: 500px;
   gap: 8px;
-  margin-right: 100px;
-
 }
 
 .stats-2-ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-
 }
 
 .stats-2-li {
@@ -220,19 +209,16 @@ a {
   height: 32px;
   margin-left: 10px;
   margin-top: 10px;
-
 }
 
 .stats-2-h {
   flex-direction: column;
-
 }
 
 .stats-h4 {
   font-weight: 700;
   font-size: 28px;
   line-height: 40px;
-
 }
 
 .stats-span {
