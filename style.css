@@ -167,10 +167,7 @@ a {
   margin: auto;
   display: flex;
 }
-.cta-content {
-  width: 600px;
-  justify-content: flex-start;
-}
+
 .cta-section-heading {
   width: 540px;
 }
