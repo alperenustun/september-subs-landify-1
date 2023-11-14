@@ -83,6 +83,11 @@ a {
   justify-content: center;
   align-items: center;
   background: var(--default-white, #fff);
+  display: flex;
+  padding: 16px 165px;
+  justify-content: center;
+  align-items: center;
+  background: var(--default-white, #fff);
 }
 
 .logo-section {
@@ -125,56 +130,42 @@ a {
 
 .feature-multiple-5 {
   margin-top: 100px;
-  margin-top: 100px;
 }
 
 .section-heading {
   width: 540px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   margin: 0 auto;
-  width: 540px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  margin: 0 auto;
 }
 
 .section-heading-h2 {
-  margin-top: auto;
-  margin-bottom: auto;
-  color: var(--text-gray-900, #18191f);
-  text-align: center;
-  font-feature-settings: "salt" on, "liga" off;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: Inter;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 64px;
-  margin-top: auto;
-  margin-bottom: auto;
-  color: var(--text-gray-900, #18191f);
-  text-align: center;
-  font-feature-settings: "salt" on, "liga" off;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: Inter;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 64px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: var(--text-gray-900, #18191F);
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 64px;
+
 }
 
 .section-p {
-  margin-top: auto;
-  margin-bottom: auto;
-  align-self: stretch;
-  color: var(--text-gray-900, #18191f);
-  text-align: center;
-  font-feature-settings: "salt" on, "liga" off;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
-  margin-top: auto;
-  margin-bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-self: stretch;
+    color: var(--text-gray-900, #18191F);
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+
 }
 
 .feature-list {
@@ -314,4 +305,29 @@ a {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
+}
+
+.feature-section-body {
+  max-width: 1180px;
+  margin: 50px auto;
+}
+.features-details-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.features-section-title {
+  width: 540px;
+  font-size: 40px;
+}
+.features-lorem-title {
+  width: 540px;
+  font-size: 18px;
+  line-height: 32px;
+}
+.features-cover-image {
+  width: 100%;
+  display: block;
+  margin-top: 20px;
 }
